@@ -1,0 +1,13 @@
+{
+    "status": "success",
+    "model_name": "Telco_Churn_Production_Model",
+    "decision_metric": "recall",
+    "candidate_version": 1,
+    "candidate_run_id": "5ca7499b26d84a948b864fa8c51e74bf",
+    "candidate_metric": 0.7272727272727273,
+    "production_version_before": null,
+    "production_metric_before": null,
+    "promoted": true,
+    "decision": "PROMOTED",
+    "production_version_after": 1
+}

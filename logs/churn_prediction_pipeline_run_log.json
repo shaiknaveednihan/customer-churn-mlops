@@ -1,0 +1,58 @@
+{
+    "pipeline": "Churn Prediction MLOps",
+    "stages": [
+        {
+            "stage": "Data Loading",
+            "status": "PASSED",
+            "exit_code": 0
+        },
+        {
+            "stage": "Raw Data Validation",
+            "status": "PASSED",
+            "exit_code": 0
+        },
+        {
+            "stage": "Preprocessing",
+            "status": "PASSED",
+            "exit_code": 0
+        },
+        {
+            "stage": "Processed Output Validation",
+            "status": "PASSED",
+            "exit_code": 0
+        },
+        {
+            "stage": "Training + MLflow + Model Registry",
+            "status": "PASSED",
+            "exit_code": 0
+        },
+        {
+            "stage": "Model Evaluation",
+            "status": "PASSED",
+            "exit_code": 0
+        },
+        {
+            "stage": "Model Quality Gate",
+            "status": "PASSED",
+            "exit_code": 0
+        },
+        {
+            "stage": "Automated Model Lifecycle",
+            "status": "PASSED",
+            "exit_code": 0
+        },
+        {
+            "stage": "Deployment Update",
+            "status": "SKIPPED",
+            "exit_code": 0
+        },
+        {
+            "stage": "Production Inference",
+            "status": "PASSED",
+            "exit_code": 0
+        }
+    ],
+    "force": true,
+    "skip_deployment": true,
+    "overall_status": "PASSED"
+}

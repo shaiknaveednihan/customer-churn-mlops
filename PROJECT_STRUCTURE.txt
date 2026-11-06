@@ -1,0 +1,149 @@
+CHURN PREDICTION PROJECT - REPAIRED VS CODE STRUCTURE
+
+.dockerignore
+    └── lab13_monitoring.yml
+    └── lab13_runner_test.yml
+    └── lab8_ci.yml
+    └── lab9_failure_tests.yml
+.gitignore
+  └── settings.json
+Dockerfile
+GIT_WORKFLOW.md
+README.md
+START_HERE.md
+  └── __init__.py
+  └── main.py
+  └── model_loader.py
+  └── monitoring_logger.py
+  └── preprocessing.py
+  └── schemas.py
+  └── stage9_flow.txt
+  └── stages.txt
+  └── api_performance_report.json
+  └── api_test_report.json
+  └── baseline_validation.csv
+  └── confusion_matrix.png
+  └── corrupted_simulation_errors.csv
+  └── data_load_report.json
+  └── failure_simulation_report.json
+  └── new_data_validation.csv
+  └── pipeline_reproducibility_report.json
+  └── preprocessing_summary_report.json
+  └── production_model_report.json
+  └── reproducibility_report.json
+  └── roc_curve.png
+check_mlflow.py
+check_project.py
+config.yaml
+      └── evolved_data.csv
+      └── evolved_labeled_data.csv
+      └── post_drift_training_data.csv
+    └── X_test_final.npy
+    └── X_test_raw.csv
+    └── X_train_final.npy
+    └── X_train_raw.csv
+    └── dataset_metadata.json
+    └── test_customer_ids.csv
+    └── updated_training_data.csv
+    └── y_test.npy
+    └── y_train.npy
+      └── churn_v01.csv
+      └── churn_v02.csv
+      └── churn_v03.csv
+      └── dataset_lineage.json
+    └── churn.csv
+    └── new_churn.csv
+  └── deploy_production.py
+  └── model.pkl
+  └── model_metadata.json
+  └── preprocessor.pkl
+  └── ARCHITECTURE.md
+  └── LAB13_END_TO_END.md
+  └── LAB7_PIPELINE.md
+  └── LAB8_CI_REPORT.md
+  └── LAB9_FAILURE_HANDLING_REPORT.md
+  └── MLFLOW_CI_SETUP.md
+  └── RUNBOOK.md
+  └── lab11_containerization_report.md
+  └── lab11_deployment_debugging_report.md
+inspect_mlflow_run.py
+inspect_model_version.py
+  └── deployment.yaml
+  └── service.yaml
+  └── lab11.13-kubernetes.txt
+  └── lab11_docker_kubernetes_reference.txt
+lab11_complete_flow.md
+  └── churn_decision_threshold.pkl
+  └── churn_xgboost_pipeline.pkl
+  └── decision_tree_baseline.pkl
+  └── ohe.pkl
+  └── preprocessor.pkl
+  └── random_forest_baseline.pkl
+  └── random_forest_model.pkl
+  └── retrained_model_v2.pkl
+  └── retrained_preprocessor_v2.pkl
+  └── scaler.pkl
+  └── churn_prediction.ipynb
+  └── project_implementation.ipynb
+  └── run_lab3_baseline.py
+  └── run_lab4_tracking.py
+  └── run_lab5_pipeline.py
+  └── run_lab6_registry.py
+  └── api_testing_report.json
+  └── deployment_automation_report.json
+  └── evaluation_report.json
+  └── failure_report.json
+  └── lab10_summary.md
+  └── lifecycle_report.json
+  └── performance_report.json
+  └── quality_gate_report.json
+requirements-api.txt
+requirements.txt
+run_api.bat
+  └── automate_lifecycle.py
+  └── evaluate.py
+  └── generate_registry_report.py
+    └── 01_load_data.py
+    └── 02_validate_data.py
+    └── 03_preprocessing.py
+    └── 04_validate_outputs.py
+    └── 05_train_registry.py
+    └── 06_model_evaluation.py
+    └── 07_quality_gate.py
+    └── 08_automate_lifecycle.py
+    └── 09_inference.py
+    └── 10_failure_injection.py
+    └── 11_prepare_deployment.py
+    └── 12_api_performance_monitoring.py
+    └── 12_concept_drift.py
+    └── 12_create_concept_drift_dataset.py
+    └── 12_create_evolved_dataset.py
+    └── 12_create_updated_dataset.py
+    └── 12_data_drift.py
+    └── 12_drift_analysis.py
+    └── 12_model_comparison.py
+    └── 12_monitor_trigger.py
+    └── 12_performance_monitoring.py
+    └── 12_performance_trend.py
+    └── 12_prediction_drift.py
+    └── 12_prediction_monitoring.py
+    └── 12_request_history.py
+    └── 12_retrain_model.py
+    └── 12_update_mlflow_registry.py
+    └── check_mlflow_registry.py
+    └── churn_prediction_pipeline.py
+    └── deploy_if_promoted.py
+    └── validation.py
+  └── preprocess.py
+  └── preprocess_pipeline.py
+  └── simulate_data_corruption.py
+  └── train.py
+  └── train_mlflow.py
+  └── train_registry.py
+  └── validate_data.py
+  └── validate_outputs.py
+  └── validate_reproducibility.py
+  └── __init__.py
+  └── test_api.py
+  └── test_local_vs_container.py
+  └── test_performance.py

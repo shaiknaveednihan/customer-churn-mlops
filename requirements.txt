@@ -1,0 +1,14 @@
+# Python 3.11 recommended. Keep scikit-learn aligned with the supplied pickle artifacts.
+numpy==2.4.6
+pandas==2.3.3
+scikit-learn==1.9.0
+joblib==1.5.3
+PyYAML==6.0.3
+pandera==0.32.1
+mlflow==3.15.2
+fastapi==0.141.1
+uvicorn==0.52.4
+pydantic==2.13.4
+httpx==0.28.1
+matplotlib==3.11.1
+pytest>=8.2,<10
